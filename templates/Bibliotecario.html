@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gestion Bibliotecario</title>
+    <link rel="stylesheet" href="../estilos/estilosBiblio.css">
+  </head>
+  <body>
+    <h1 class="title">Gestion bibliotecario</h1>
+    <div class="login">
+      <h2 calss="subtitle">Registrar nuevo libro</h2>
+      <div class="formulario">
+        <label for="Titulo">Titulo del libro</label>
+        <input id="Titulo" type="text" />
+        <label for="Autor">Autor</label>
+        <input id="Autor" type="text" />
+        <label for="Editorial">Editorial</label>
+        <input id="Editorial" type="text" />
+        <label for="Categoria">Categoria</label>
+        <input id="Categoria" type="text" />
+        <label for="fecha">Fecha de puplicacion</label>
+        <input id="fecha" type="date" />
+        <button id="btnEnviar" type="submit">Registrar Libro</button>
+      </div>
+    </div>
+    <div class="cabezeralista">
+      <ul>
+        <li>#</li>
+        <li>Titulo</li>
+        <li>Autor</li>
+        <li>Editorial</li>
+        <li>Categoria</li>
+        <li>Fecha de Publicacion</li>
+        <li>Acciones</li>
+      </ul>
+    </div>
+    <div id="lista">
+
+    </div>
+    <script src="../scripts/bibliotecario.js"></script>
+  </body>
+</html>

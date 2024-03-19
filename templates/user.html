@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gestion de usuarios</title>
+    <link rel="stylesheet" href="../estilos/estilosBiblio.css">
+  </head>
+  <body>
+    <h1 class="title">Gestion usuarios</h1>
+    <div class="login">
+      <h2 calss="subtitle">Registrar nuevo libro</h2>
+      <div class="formulario">
+        <label for="Nombre">Nombre</label>
+        <input id="Nombre" type="text" />
+        <label for="email">Email</label>
+        <input id="email" type="email" />
+        <label for="fecha">Fecha de nacimiento</label>
+        <input id="fecha" type="date" />
+        <button id="btnEnviar" type="submit">Registrar usuario</button>
+      </div>
+    </div>
+    <div class="cabezeralista">
+      <ul>
+        <li>#</li>
+        <li>Nombre</li>
+        <li>email</li>
+        <li>Fecha de nacimiento</li>
+        <li>Acciones</li>
+      </ul>
+    </div>
+    <div id="lista">
+
+    </div>
+    <script src="../scripts/user.js"></script>
+  </body>
+</html>

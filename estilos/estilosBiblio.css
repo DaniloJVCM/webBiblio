@@ -1,0 +1,77 @@
+.tittle {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tittle h1 {
+  color: #333;
+}
+
+.login {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.subtitle {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+}
+
+button[type="submit"] {
+  text-align: center;
+  display: flex;
+  margin: auto;
+  width: 50%;
+  justify-content: center;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.cabezeralista ul, #lista ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+#lista ul{
+    background-color: #dcdcdc;
+}
+#lista ul li button[type="submit"]{
+    background-color: #ff2727;
+}
+.cabezeralista ul li, #lista ul li {
+  flex: 1;
+  text-align: center;
+  padding: 10px 0;
+  border-right: 1px solid #ccc;
+}
+
+.cabezeralista ul li:last-child,#lista ul li:last-child {
+  border-right: none;
+}
